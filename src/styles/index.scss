@@ -1,0 +1,62 @@
+.about-me__container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  animation-name: appears;
+  animation-duration: 400ms;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+.about-me__content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 3rem;
+
+  & .text-container {
+    position: relative;
+    width: 45%;
+    & h1.name {
+      color: #fcbf1e;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 300;
+      font-size: 4.2rem;
+      text-align: right;
+    }
+    & p.little-extract {
+      text-align: right;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 400;
+      font-size: 0.9rem;
+      color: #120136;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      right: -2.5rem;
+      height: 100%;
+      width: 0.12rem;
+      border-radius: 10px;
+      background-color: #d8d8d8;
+    }
+  }
+  & .photo-container {
+    margin-left: 5rem;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 50%;
+    border: 1px solid #120136;
+    background-color: #f3f3f3;
+    position: relative;
+    overflow: hidden;
+  }
+}
+
+@keyframes appears {
+  to {
+    opacity: 1;
+  }
+}
