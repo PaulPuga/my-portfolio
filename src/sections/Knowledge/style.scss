@@ -1,0 +1,62 @@
+section#knowledge{
+  width: 100%;
+  height: 100vh;
+  // background-color: #cfcfcf;
+  display: flex;
+  padding-top: 3.2rem;
+}
+.knowledge__cards-container{
+  // background-color: goldenrod;
+  width: 100%;
+  padding: 0.4rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  // grid-template-rows: repeat(5, 1fr);
+  grid-gap: 10px;
+}
+
+//* TechCard ==================================
+.tech-card-container{
+  // margin: 0 1rem;
+  // height: 3rem;
+  // width: 10rem;
+  display: flex;
+  align-items: center;
+}
+.tech-card-box{
+  // height: 3rem;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+.tech-card-circle-logo{
+  // max-height: 3.5rem;
+  // max-width: 3.5rem;
+  min-width: 3rem;
+  min-height: 3rem;
+  border-radius: 50%;
+  background-color: #120136;
+  padding: 0.8rem;
+
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+}
+.tech-card-info-container{
+  padding-left: 0.5rem;
+  & h3{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #120136;
+  }
+  & p{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #120136;
+  }
+}

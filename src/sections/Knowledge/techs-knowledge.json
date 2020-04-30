@@ -1,0 +1,112 @@
+{
+  "data": [
+    {
+      "title": "HTML 5",
+      "experience": "1 year experience",
+      "color": "#EA6228",
+      "logo": ""
+    },
+    {
+      "title": "CSS 3",
+      "experience": "1 year experience",
+      "color": "#1F96E6",
+      "logo": ""
+    },
+    {
+      "title": "JAVASCRIPT ES6",
+      "experience": "1 year experience",
+      "color": "#EED818",
+      "logo": ""
+    },
+    {
+      "title": "EXPRESS",
+      "experience": "1 year experience",
+      "color": "#535D68",
+      "logo": ""
+    },
+    {
+      "title": "MONGO DB",
+      "experience": "1 year experience",
+      "color": "#7DC25E",
+      "logo": ""
+    },
+    {
+      "title": "NODE  JS",
+      "experience": "1 year experience",
+      "color": "#7DB800",
+      "logo": ""
+    },
+    {
+      "title": "REACT",
+      "experience": "1 year experience",
+      "color": "#5ED4F4",
+      "logo": ""
+    },
+    {
+      "title": "REST API",
+      "experience": "1 year experience",
+      "color": "#3D46C7",
+      "logo": ""
+    },
+    {
+      "title": "WEBPACK",
+      "experience": "1 year experience",
+      "color": "#1C78C0",
+      "logo": ""
+    },
+    {
+      "title": "SASS",
+      "experience": "1 year experience",
+      "color": "#CD6699",
+      "logo": ""
+    },
+    {
+      "title": "REDUX",
+      "experience": "1 year experience",
+      "color": "#764ABC",
+      "logo": ""
+    },
+    {
+      "title": "SCRUM",
+      "experience": "1 year experience",
+      "color": "#43A6BD",
+      "logo": ""
+    },
+    {
+      "title": "SQL",
+      "experience": "1 year experience",
+      "color": "#105E86",
+      "logo": ""
+    },
+    {
+      "title": "GIT",
+      "experience": "1 year experience",
+      "color": "#EC4D28",
+      "logo": ""
+    },
+    {
+      "title": "REGEX",
+      "experience": "1 year experience",
+      "color": "#511845",
+      "logo": ""
+    },
+    {
+      "title": "RESPONSIVE DESIGN",
+      "experience": "1 year experience",
+      "color": "#E3C95E",
+      "logo": ""
+    },
+    {
+      "title": "GRAPHQL",
+      "experience": "1 year experience",
+      "color": "#DB0094",
+      "logo": ""
+    },
+    {
+      "title": "OPP",
+      "experience": "1 year experience",
+      "color": "#1E7873",
+      "logo": ""
+    }
+  ]
+}
