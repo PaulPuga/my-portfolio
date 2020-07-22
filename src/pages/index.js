@@ -1,18 +1,20 @@
-import React, { useEffect, useState, useRef } from "react"
-import { Link, useStaticQuery, graphql } from "gatsby"
+import React from "react"
 
 import Layout from "../components/layout"
-import Image from "../components/myPhoto"
-import SEO from "../components/seo"
+// import SEO from "../components/seo"
 
-import AboutMe from '../sections/AboutMe'
-import Knowledge from '../sections/Knowledge'
+import AboutMe from "../sections/AboutMe"
+import Knowledge from "../sections/Knowledge"
+import Projects from "../sections/Projects"
+import ContactMe from "../sections/ContactMe"
 
 const IndexPage = () => {
   return (
     <Layout>
       <AboutMe />
       <Knowledge />
+      <Projects />
+      <ContactMe />
     </Layout>
   )
 }

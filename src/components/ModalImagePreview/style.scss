@@ -1,0 +1,16 @@
+.image-preview-background{
+  background-color: #12013640;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-preview-image-container{
+  width: 60%;
+  background-color: #120136;
+}

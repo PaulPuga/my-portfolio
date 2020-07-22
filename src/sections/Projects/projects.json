@@ -1,0 +1,56 @@
+{
+  "data": [
+    {
+      "id": "cmms",
+      "title": "CMMS",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus urna et pharetra pharetra massa massa ultricies mi. Habitasse platea dictumst quisque sagittis purus.",
+      "techs": [
+        "tech 1",
+        "tech 2",
+        "tech 3",
+        "tech 4",
+        "tech 5",
+        "tech 6"
+      ]
+    },
+    {
+      "id": "santaSofia",
+      "title": "Santa Sofia",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus urna et pharetra pharetra massa massa ultricies mi. Habitasse platea dictumst quisque sagittis purus.",
+      "techs": [
+        "tech 1",
+        "tech 2",
+        "tech 3",
+        "tech 4",
+        "tech 5",
+        "tech 6"
+      ]
+    },
+    {
+      "id": "surveys",
+      "title": "Surveys",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus urna et pharetra pharetra massa massa ultricies mi. Habitasse platea dictumst quisque sagittis purus.",
+      "techs": [
+        "tech 1",
+        "tech 2",
+        "tech 3",
+        "tech 4",
+        "tech 5",
+        "tech 6"
+      ]
+    },
+    {
+      "id": "payroll",
+      "title": "Payroll",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus urna et pharetra pharetra massa massa ultricies mi. Habitasse platea dictumst quisque sagittis purus.",
+      "techs": [
+        "tech 1",
+        "tech 2",
+        "tech 3",
+        "tech 4",
+        "tech 5",
+        "tech 6"
+      ]
+    }
+  ]
+}

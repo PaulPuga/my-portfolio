@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
 import "./style.scss"
 
 import Image from "../../components/myPhoto"
@@ -8,7 +9,7 @@ import SEO from "../../components/seo"
 const AboutMe = () => {
   const aboutMeRef = useRef(null)
   useEffect(() => {
-    initFunc()
+    // initFunc()
   }, [])
 
   const data = useStaticQuery(graphql`
@@ -21,20 +22,6 @@ const AboutMe = () => {
       }
     }
   `)
-
-  const initFunc = () => {
-    window.addEventListener("scroll", e => {
-      if (window.scrollY > aboutMeRef.current.getBoundingClientRect().top) {
-        document.getElementById("main-header").classList.add("scrolled")
-      } else {
-        if (
-          document.getElementById("main-header").classList.contains("scrolled")
-        ) {
-          document.getElementById("main-header").classList.remove("scrolled")
-        }
-      }
-    })
-  }
   return (
     <React.Fragment>
       <SEO title="Home" />

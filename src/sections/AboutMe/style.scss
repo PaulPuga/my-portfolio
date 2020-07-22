@@ -15,20 +15,28 @@
   align-items: center;
   justify-content: center;
   margin-right: 3rem;
-
+  position: relative;
+  & .text-container-cover {
+    background-color: teal;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
   & .text-container {
     position: relative;
     width: 45%;
     & h1.name {
       color: #fcbf1e;
-      font-family: "Montserrat", sans-serif;
-      font-weight: 300;
+      font-family: "Helvetica Neue", "Montserrat", sans-serif;
+      font-weight: 700;
       font-size: 4.2rem;
       text-align: right;
     }
     & p.little-extract {
       text-align: right;
-      font-family: "Montserrat", sans-serif;
+      font-family: "Helvetica Neue", "Montserrat", sans-serif;
       font-weight: 400;
       font-size: 0.9rem;
       color: #120136;
@@ -42,21 +50,100 @@
       border-radius: 10px;
       background-color: #d8d8d8;
     }
+    // clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+    // animation-name: apearText;
+    // animation-duration: 500ms;
+    // animation-fill-mode: forwards;
+    // animation-timing-function: ease-in;
   }
   & .photo-container {
     margin-left: 5rem;
     height: 13rem;
     width: 13rem;
-    border-radius: 50%;
-    border: 1px solid #120136;
+    // border-radius: 50%;
+    // border: 1px solid #120136;
     background-color: #f3f3f3;
     position: relative;
     overflow: hidden;
+    clip-path: circle(100%);
+    animation-name: createCircle;
+    animation-duration: 900ms;
+    // animation-delay: 80ms;
+    animation-timing-function: cubic-bezier(0.68, -0.6, 0.32, 1.6);
+    animation-fill-mode: forwards;
   }
+}
+.about-me__hexagons-container {
+  margin: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: -50%;
+  right: 0;
+  height: 100%;
+  width: 75%;
 }
 
 @keyframes appears {
   to {
     opacity: 1;
   }
+}
+@keyframes createCircle {
+  to {
+    clip-path: circle(6.4rem);
+  }
+}
+@keyframes apearText {
+  to {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .about-me__content-container {
+    & .text-container {
+      & h1.name {
+        font-size: 3.2rem; // ? =========
+      }
+      & p.little-extract {
+        font-size: 0.7rem; // ? =========
+      }
+    }
+    & .photo-container {
+      height: 11rem;// ? =========
+      width: 11rem;// ? =========
+    }
+  }
+  @keyframes createCircle {
+    to {
+      clip-path: circle(5.4rem);
+    }
+  }
+
+}
+@media (max-width: 768px) {
+
+
+  .about-me__content-container {
+    & .text-container {
+      & h1.name {
+        font-size: 2.6rem; // ? =========
+      }
+      & p.little-extract {
+        font-size: 0.7rem; // ? =========
+      }
+    }
+    & .photo-container {
+      height: 11rem;// ? =========
+      width: 11rem;// ? =========
+    }
+  }
+  @keyframes createCircle {
+    to {
+      clip-path: circle(5.4rem);
+    }
+  }
+
 }

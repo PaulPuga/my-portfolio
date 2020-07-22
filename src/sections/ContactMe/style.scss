@@ -1,0 +1,142 @@
+section#contact-me {
+  height: 100vh;
+  width: 100%;
+  margin-top: 3rem;
+}
+.contact-me__container {
+  height: 100%;
+  width: 100%;
+  padding-top: 3.4rem;
+  display: grid;
+  grid-template-rows: 1fr 3rem;
+}
+.contact-me__form {
+  width: 50%;
+  margin: auto;
+  & h2 {
+    font-family: "Helvetica Neue", "Montserrat", sans-serif;
+    color: #fcbf1e;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+}
+.contact-me__two-inputs-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.contact-me__message-container {
+  width: 100%;
+  height: 8rem;
+  margin-bottom: 1rem;
+}
+.contact-me__button-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  & .button-wrapper {
+    height: 1.8rem;
+    width: 40%;
+  }
+}
+.contact-me__input-wrapper {
+  height: 1.8rem;
+  &.name {
+    width: 55%;
+    // margin-right: 1rem;
+  }
+  &.subject {
+    width: 40%;
+  }
+}
+
+.input__wrapper {
+  height: 100%;
+  min-width: 6rem;
+  & input {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #c9c9c9;
+    border-radius: 20px;
+    padding: 0 1rem;
+    font-family: "Helvetica Neue", "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #120136;
+    &:hover {
+      border-color: #838383;
+    }
+    &:focus {
+      outline: none;
+      border-color: #fcbf1e;
+    }
+  }
+}
+.text-area__wrapper {
+  height: 100%;
+  min-width: 6rem;
+  & textarea {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #c9c9c9;
+    border-radius: 17px;
+    padding: 0 1rem;
+    padding-top: 0.4rem;
+    font-family: "Helvetica Neue", "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #120136;
+    resize: none;
+    &:hover {
+      border-color: #838383;
+    }
+    &:focus {
+      outline: none;
+      border-color: #fcbf1e;
+    }
+  }
+}
+
+.button__wrapper {
+  width: 100%;
+  height: 100%;
+  & a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #120136;
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: #fcbf1e;
+    border-radius: 20px;
+    font-family: "Helvetica Neue", "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+
+    &:hover {
+      background-color: #ebb31b;
+    }
+    &:focus {
+      outline: none;
+    }
+    &:active {
+      background-color: #fcbf1e;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .contact-me__form {
+    width: 60%;
+  }
+ 
+}
+@media (max-width: 768px) {
+  .contact-me__form {
+    width: 70%;
+  }
+}
